@@ -2,6 +2,7 @@
  * In Java, BufferedWriter is a character streams class to handle the character data. 
  * Unlike bytes stream (convert data into bytes), you can just write the strings, arrays or characters data directly to file.
  */
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;

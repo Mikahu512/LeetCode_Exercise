@@ -11,7 +11,6 @@ import java.io.IOException;
 public class WriteToFileExample {
   public static void main(String[] args) {
 		try {
- 
 			String content = "This is the content to write into file";
  
 			File file = new File("/users/filename.txt");
@@ -25,7 +24,6 @@ public class WriteToFileExample {
 			BufferedWriter bw = new BufferedWriter(fw);
 			bw.write(content);
 			bw.close();
- 
 			System.out.println("Done");
  
 		} catch (IOException e) {

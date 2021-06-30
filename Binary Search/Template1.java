@@ -11,7 +11,7 @@ public class WriteToFileExample {
   public static void main(String[] args) {
 		try {
 			String content = "This is the content to write into file";
- 
+
 			File file = new File("/users/filename.txt");
 			// if file doesnt exists, then create it
 			if (!file.exists()) {

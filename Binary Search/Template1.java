@@ -22,7 +22,7 @@ public class WriteToFileExample {
 			bw.write(content);
 			bw.close();
 			System.out.println("Done");
- 
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -13,7 +13,7 @@ public class WriteToFileExample {
 			String content = "This is the content to write into file";
 			File file = new File("/users/filename.txt");
 			// if file doesnt exists, then create it
-			if (!file.exists()) {
+			if (!file.exists()) { 
 				file.createNewFile();
 			}  
 			FileWriter fw = new FileWriter(file.getAbsoluteFile());

@@ -26,4 +26,6 @@ public class WriteToFileExample {
 		} 
 	}
 }
-
+int look {
+	StringBuilder cur = "This "
+}

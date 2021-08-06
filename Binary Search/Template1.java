@@ -27,5 +27,6 @@ public class WriteToFileExample {
 	}
 }
 int look {
-	StringBuilder cur = "This "
+	StringBuilder cur = "This is the cur node to be moved forward";
+	
 }

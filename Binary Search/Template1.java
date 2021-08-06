@@ -28,5 +28,6 @@ public class WriteToFileExample {
 }
 int look {
 	StringBuilder cur = "This is the cur node to be moved forward";
+	FileWriter fw = new FileWriter(file.getAbsoluteFile());
 	
 }

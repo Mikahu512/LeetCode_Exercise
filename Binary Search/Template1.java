@@ -24,6 +24,6 @@ public class WriteToFileExample {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-	} 
+	}
 }
 

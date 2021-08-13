@@ -23,7 +23,7 @@ public class WriteToFileExample {
 			System.out.println("Done");
 		} catch (IOException e) {
 			e.printStackTrace();
-		} 
+		}
 	} 
 }
 
